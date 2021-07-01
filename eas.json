@@ -1,0 +1,37 @@
+{
+  "builds": {
+    "android": {
+      "production": {
+        "workflow": "managed",
+        "releaseChannel": "production-v3"
+      },
+      "development": {
+        "workflow": "managed",
+        "releaseChannel": "development",
+        "buildType": "development-client",
+        "distribution": "internal"
+      },
+      "preview": {
+        "workflow": "managed",
+        "releaseChannel": "preview"
+      }
+    },
+    "ios": {
+      "production": {
+        "workflow": "managed",
+        "releaseChannel": "production-v3"
+      },
+      "development": {
+        "workflow": "managed",
+        "buildType": "development-client",
+        "distribution": "internal",
+        "releaseChannel": "development"
+      },
+      "preview": {
+        "workflow": "managed",
+        "distribution": "simulator",
+        "releaseChannel": "preview"
+      }
+    }
+  }
+}

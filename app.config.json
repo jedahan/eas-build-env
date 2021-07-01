@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "name",
+    "slug": "slug",
+    "owner": "owner",
+    "privacy": "unlisted",
+    "platforms": ["ios"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "buildNumber": "1",
+      "bundleIdentifier": "com.example.app"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "svg"
+      ]
+    },
+    "extra": {
+      "somekey": "somevalue"
+    }
+  }
+}
